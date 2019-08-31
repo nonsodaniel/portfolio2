@@ -28,15 +28,15 @@ class Gallery extends Component {
                     <a
                         className="image fit thumb"
                         href={obj.src}
-                        onClick={e => {
-                            e.preventDefault();
-                            this.toggleLightbox(i);
-                        }}
+                    // onClick={e => {
+                    //     e.preventDefault();
+                    //     this.toggleLightbox(i);
+                    // }}
                     >
                         <img src={obj.thumbnail} />
                     </a>
 
-                    <h3>{obj.caption}</h3>
+                    <h3> <a href={obj.src}>{obj.caption}</a></h3>
                     <p>{obj.description}</p>
                 </article>
             );

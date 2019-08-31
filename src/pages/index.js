@@ -9,23 +9,23 @@ import thumb01 from '../assets/images/thumbs/netflix.jpg'
 import thumb02 from '../assets/images/thumbs/landing.jpg'
 import thumb03 from '../assets/images/thumbs/owh.jpg'
 import thumb04 from '../assets/images/thumbs/farm.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+// import thumb05 from '../assets/images/thumbs/05.jpg'
+// import thumb06 from '../assets/images/thumbs/06.jpg'
 
 import full01 from '../assets/images/fulls/netflix.jpg'
 import full02 from '../assets/images/fulls/landing.jpg'
 import full03 from '../assets/images/fulls/owh.jpg'
 import full04 from '../assets/images/fulls/farm.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
+// import full05 from '../assets/images/fulls/05.jpg'
+// import full06 from '../assets/images/fulls/06.jpg'
 
 
 
 const DEFAULT_IMAGES = [
     { id: '1', src: 'https://nonsonetflix.herokuapp.com', source: full01, thumbnail: thumb01, caption: 'Netflix Home page', description: 'Netflix Home page clone.' },
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Landing Page', description: 'A sample landing page of a mobile app that direct users to the app.' },
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'HR Management system', description: "OWH Hackathon's project" },
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Farm Savvy', description: `Naija Hack Hackathon's Project.` },
+    { id: '2', src: 'https://acadalanding.herokuapp.com', source: full02, thumbnail: thumb02, caption: 'Landing Page', description: 'A sample landing page of a mobile app that direct users to the app.' },
+    { id: '3', src: 'https://owhnonso.herokuapp.com', source: full03, thumbnail: thumb03, caption: 'HR Management system', description: "OWH Hackathon's project" },
+    { id: '4', src: 'https://farmsavvy.tech', source: full04, thumbnail: thumb04, caption: 'Farm Savvy', description: `Naija Hack Hackathon's Project.` },
     // { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
     // { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' }
 ];
@@ -62,7 +62,8 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, src, thumbnail, caption, description }) => ({
+                            src,
                             source,
                             thumbnail,
                             caption,
