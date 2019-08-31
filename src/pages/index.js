@@ -19,13 +19,15 @@ import full04 from '../assets/images/fulls/farm.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
+
+
 const DEFAULT_IMAGES = [
     { id: '1', src: 'https://nonsonetflix.herokuapp.com', source: full01, thumbnail: thumb01, caption: 'Netflix Home page', description: 'Netflix Home page clone.' },
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' }
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Landing Page', description: 'A sample landing page of a mobile app that direct users to the app.' },
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'HR Management system', description: "OWH Hackathon's project" },
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Farm Savvy', description: `Naija Hack Hackathon's Project.` },
+    // { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    // { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' }
 ];
 
 class HomeIndex extends React.Component {
