@@ -20,7 +20,7 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '1', src: 'https://nonsonetflix.herokuapp.com', source: full01, thumbnail: thumb01, caption: 'Netflix Home page', description: 'Netflix Home page clone.' },
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
     { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
@@ -45,12 +45,15 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                                magna sed accumsan arcu neque.</h2>
+                            <h2>About Me</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>I’m a self-taught Full stack Software Developer with the skills to deliver Responsive designs and Web
+                            applications that meets accessibility standards. I engage myself mostly in community development
+                            programmes like contributing to open source projects, organizing tech meetups to create awareness and
+                            empower students and also ensure products are being delivered in the best possible way to meet user’s
+                            requirements and maximize profit.</p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="https://www.linkedin.com/in/chinonso-ihedioha-732665112/" className="button">Learn More</a></li>
                         </ul>
                     </section>
 
@@ -71,7 +74,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <p>Please always feel free to request for my services and other Tech related activites. <b>I'm ever Ready! <h3>Always.</h3></b></p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -89,17 +92,16 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        Magodo, Lagos.<br />
+                                        Nigeria.<br />
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        +234-909-654-6815
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="#">nonsodaniel07@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
