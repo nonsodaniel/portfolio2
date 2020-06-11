@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^2.2.9",
+    "gatsby": "^2.23.3",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
@@ -24,6 +24,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
+    "start": "npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

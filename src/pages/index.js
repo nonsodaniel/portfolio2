@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
@@ -31,9 +32,15 @@ const DEFAULT_IMAGES = [
 ];
 
 class HomeIndex extends React.Component {
+    state = { isLoading: false }
+
+    handleSubmit = async (e) => {
+        e.preventDefault()
+        alert("here")
+    }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "Ihedioha Chinonso - nonsodaniel"
         const siteDescription = "Site description"
 
         return (
@@ -54,9 +61,9 @@ class HomeIndex extends React.Component {
                             programmes like contributing to open source projects, organizing tech meetups to create awareness and
                             empower students and also ensure products are being delivered in the best possible way to meet user’s
                             requirements and maximize profit.</p>
-                        <ul className="actions">
-                            <li><a href="https://www.linkedin.com/in/chinonso-ihedioha-732665112/" className="button">Learn More</a></li>
-                        </ul>
+                        {/* <ul className="actions">
+                            <li><a href="" className="button">Learn More</a></li>
+                        </ul> */}
                     </section>
 
                     <section id="two">
@@ -71,7 +78,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
+                            <li><a href="github.com/nonsodaniel" className="button">Full Portfolio</a></li>
                         </ul>
                     </section>
 
@@ -80,16 +87,17 @@ class HomeIndex extends React.Component {
                         <p>Please always feel free to request for my services and other Tech related activites. <b>I'm ever Ready! <h3>Always.</h3></b></p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <form onSubmit={this.handleSubmit}>
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
+                                    <ul className="actions actions-send-message">
+                                        <li><input type="submit" value="Send Message" /></li>
+                                    </ul>
                                 </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
+
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
