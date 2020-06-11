@@ -1427,8 +1427,7 @@
 
 			ul {
 				&.actions {
-					// margin: 0 0 _size(element-margin) 0;
-					margin: 20px 0 !important;
+					margin: 0 0 _size(element-margin) 0;
 
 					li {
 						display: block;
@@ -1452,6 +1451,7 @@
 						}
 					}
 
+					
 					&.small {
 						li {
 							padding: (_size(element-margin) * 0.25) 0 0 0;
@@ -1461,6 +1461,9 @@
 							}
 						}
 					}
+				}
+				&.actions-send-message{
+					margin: 20px 0 !important;
 				}
 			}
 

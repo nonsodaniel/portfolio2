@@ -93,7 +93,7 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                    <ul className="actions actions-send-message">
+                                    <ul className="actions actions-send-message" style={{ margin: "20px 0" }}>
                                         <li><input type="submit" value="Send Message" /></li>
                                     </ul>
                                 </form>
