@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import '../pages/pages.scss'
 
 
+
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
@@ -80,7 +81,10 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="github.com/nonsodaniel" className="button">Full Portfolio</a></li>
+                            <li>
+                                <a
+                                    href="https://docs.google.com/document/d/1BhNmaDTbJAiYqfiteMYZVfPfu5pqpwc9iQR21GaMwZY/edit?usp=sharing"
+                                    className="button">Full Portfolio</a></li>
                         </ul>
                     </section>
 
