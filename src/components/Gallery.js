@@ -43,7 +43,7 @@ class Gallery extends Component {
         });
 
         return (
-            <div className="row">
+            <div className="row projects-wrap">
                 {gallery}
             </div>
         );

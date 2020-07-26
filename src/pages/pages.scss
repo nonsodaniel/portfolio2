@@ -1,0 +1,7 @@
+.projects-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    .work-item .image:nth-child(3){
+        height: 20px;
+    }
+}
