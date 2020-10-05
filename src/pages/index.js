@@ -26,8 +26,8 @@ import full04 from '../assets/images/fulls/owh.jpg'
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://provider.bookme.com.ng/', source: full01, thumbnail: thumb01, caption: 'BookMe Provider', description: 'A pair-to-pair platform for Service Providers where Service providers put in the various services they offer for their clients to see and connect with them.' },
-    { id: '2', src: 'https://bookme.com.ng/', source: full02, thumbnail: thumb02, caption: 'BookMe Client', description: `A pair-to-pair platform for Client to make requests for services from their various Service Providers and make reviews based on performance.` },
+    { id: '1', src: 'https://bookme.com.ng/', source: full01, thumbnail: thumb01, caption: 'BookMe Provider', description: 'A pair-to-pair platform for Service Providers where Service providers put in the various services they offer for their clients to see and connect with them.' },
+    { id: '2', src: 'https://client.bookme.com.ng/', source: full02, thumbnail: thumb02, caption: 'BookMe Client', description: `A pair-to-pair platform for Client to make requests for services from their various Service Providers and make reviews based on performance.` },
     { id: '3', src: 'https://fightpandemics.com/', source: full03, thumbnail: thumb03, caption: 'FightPandemic', description: `A platform for connecting those who need help with those who can provide it.` },
     { id: '4', src: 'https://owhnonso.herokuapp.com', source: full04, thumbnail: thumb04, caption: 'HR Management system(Hackathon Project)', description: "A basic HR management system for tracking activities and transactions that are been carried out in a structured Organization." },
 
