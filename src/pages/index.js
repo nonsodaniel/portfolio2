@@ -12,26 +12,55 @@ import Gallery from '../components/Gallery'
 import thumb01 from '../assets/images/thumbs/provider.png'
 import thumb02 from '../assets/images/thumbs/client.png'
 import thumb03 from '../assets/images/thumbs/pandemic.png'
-import thumb04 from '../assets/images/thumbs/owh.jpg'
+import thumb04 from '../assets/images/thumbs/password.png'
 // import thumb05 from '../assets/images/thumbs/05.jpg'
 // import thumb06 from '../assets/images/thumbs/06.jpg'
 
 import full01 from '../assets/images/fulls/provider.png'
 import full02 from '../assets/images/fulls/client.png'
 import full03 from '../assets/images/fulls/pandemic.png'
-import full04 from '../assets/images/fulls/owh.jpg'
+import full04 from '../assets/images/fulls/password.png'
 // import full05 from '../assets/images/fulls/05.jpg'
 // import full06 from '../assets/images/fulls/06.jpg'
 
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://bookme.com.ng/', source: full01, thumbnail: thumb01, caption: 'BookMe Provider', description: 'A pair-to-pair platform for Service Providers where Service providers put in the various services they offer for their clients to see and connect with them.' },
-    { id: '2', src: 'https://client.bookme.com.ng/', source: full02, thumbnail: thumb02, caption: 'BookMe Client', description: `A pair-to-pair platform for Client to make requests for services from their various Service Providers and make reviews based on performance.` },
-    { id: '3', src: 'https://fightpandemics.com/', source: full03, thumbnail: thumb03, caption: 'FightPandemic', description: `A platform for connecting those who need help with those who can provide it.` },
-    { id: '4', src: 'https://owhnonso.herokuapp.com', source: full04, thumbnail: thumb04, caption: 'HR Management system(Hackathon Project)', description: "A basic HR management system for tracking activities and transactions that are been carried out in a structured Organization." },
-
-];
+  {
+    id: '1',
+    src: 'https://bookme.com.ng/',
+    source: full01,
+    thumbnail: thumb01,
+    caption: 'BookMe Provider',
+    description:
+      'A pair-to-pair platform for Service Providers where Service providers put in the various services they offer for their clients to see and connect with them.',
+  },
+  {
+    id: '2',
+    src: 'https://client.bookme.com.ng/',
+    source: full02,
+    thumbnail: thumb02,
+    caption: 'BookMe Client',
+    description: `A pair-to-pair platform for Client to make requests for services from their various Service Providers and make reviews based on performance.`,
+  },
+  {
+    id: '3',
+    src: 'https://fightpandemics.com/',
+    source: full03,
+    thumbnail: thumb03,
+    caption: 'FightPandemic',
+    description: `A platform for connecting those who need help with those who can provide it.`,
+  },
+  {
+    id: '4',
+    src: 'https://passkeygenerator.netlify.app',
+    source: full04,
+    thumbnail: thumb04,
+    caption: 'Password Generator',
+    description:
+      'A dynamic and flexible password generator that enables you generate passwords based on your preference.',
+  },
+]
 
 class HomeIndex extends React.Component {
     state = { isLoading: false }
